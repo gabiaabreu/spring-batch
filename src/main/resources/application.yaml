@@ -1,3 +1,8 @@
 spring:
   application:
     name: batch
+
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: Batch
